@@ -5,6 +5,15 @@ plugins {
     id 'org.jetbrains.kotlin.android' version '1.7.10' apply false
 }
 
+subprojects {
+    ext.commonAppId = "com.guid.andedition"
+    ext.commonCompileSdkVersion = 32
+    ext.commonTargetSdkVersion = 32
+    ext.commonMinSdkVersion = 26
+    ext.commonVersionName = "1.0"
+    ext.commonVersionCode = 1
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
