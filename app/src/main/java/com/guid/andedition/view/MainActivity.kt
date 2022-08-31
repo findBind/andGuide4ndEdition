@@ -18,16 +18,5 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         Timber.tag("확인").e("메인뷰모델 : $mainViewModel")
-
-        mainViewModel.moveToNext()
-        updateQuestion()
-    }
-
-    private fun updateQuestion() {
-        val questionTextResId = mainViewModel.currentQuestionText
-    }
-
-    private fun checkAnswer(userAnser: Boolean) {
-        val correctAnswer = mainViewModel.currentQuestionAnswer
     }
 }

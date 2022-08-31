@@ -1,9 +1,4 @@
 <resources>
     <string name="app_name">andGuide4ndEdition</string>
 
-    <string name="question_australia">캔버라는 호주의 수도다.</string>
-    <string name="true_button">True</string>
-    <string name="false_button">False</string>
-    <string name="next_button">Next</string>
-
 </resources>
