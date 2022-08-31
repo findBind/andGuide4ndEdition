@@ -1,10 +1,9 @@
 package com.guid.andedition.view.model
 
 import androidx.lifecycle.ViewModel
-import com.guid.andedition.R
 import timber.log.Timber
 
-class MainView : ViewModel() {
+class MainViewModel : ViewModel() {
 
     init {
         Timber.tag("확인").e("view 모델 시작")
