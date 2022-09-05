@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" android:padding="8dp">
+
+    <TextView
+            android:text="Crime Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/criem_name" android:layout_weight="1"/>
+    <TextView
+            android:text="Crime Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/crime_time" android:layout_weight="1"/>
+</LinearLayout>
